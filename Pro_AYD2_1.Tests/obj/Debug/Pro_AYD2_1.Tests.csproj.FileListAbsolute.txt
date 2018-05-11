@@ -14,7 +14,6 @@ C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Pro_AYD2_1.Tests.dll.config
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Pro_AYD2_1.Tests.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Pro_AYD2_1.Tests.pdb
-C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Pro_AYD2_1.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Microsoft.Owin.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\System.Web.Optimization.dll
@@ -39,7 +38,6 @@ C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\EntityFramework.xml
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\proy_final\G2ProyectoAYD2\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll

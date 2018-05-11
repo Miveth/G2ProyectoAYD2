@@ -14,6 +14,7 @@ namespace Pro_AYD2_1.Account
     public partial class Login : Page
     {
         DBComun cn = new DBComun();
+        static public Boolean logeado = false;
         protected void Page_Load(object sender, EventArgs e)
         {
             RegisterHyperLink.NavigateUrl = "Register";
@@ -25,6 +26,11 @@ namespace Pro_AYD2_1.Account
             {
                 RegisterHyperLink.NavigateUrl += "?ReturnUrl=" + returnUrl;
             }
+        }
+
+        public Boolean logg() {
+
+            return logeado;
         }
 
         protected void LogIn(object sender, EventArgs e)
@@ -44,12 +50,14 @@ namespace Pro_AYD2_1.Account
                 Session["user"] = row["nombre"].ToString();
                 Session["cuenta"] = Email.Text;
                 Response.Redirect("MENU.aspx");
+                logeado = true;
             }
 
             else
             {
                 FailureText.Text = "Intento de inicio de sesión no válido";
                 ErrorMessage.Visible = true;
+                logeado = true;
 
             }
 
