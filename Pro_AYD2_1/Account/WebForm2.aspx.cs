@@ -15,7 +15,16 @@ namespace Pro_AYD2_1.Account
         string cadena;
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            if (Session["cuenta"] != null)
+            {
+                noCuenta.Text = Session["cuenta"].ToString();
+                sesion.Text = Session["user"].ToString();
+            }
+            else
+            {
+                Response.Redirect("/");
+            }
+
         }
 
         protected void logo_Click(object sender, EventArgs e)
