@@ -14,7 +14,7 @@ namespace Pro_AYD2_1.Account
     public partial class Login : Page
     {
         DBComun cn = new DBComun();
-        static public Boolean logeado = false;
+        static public Boolean logeado = true;
         protected void Page_Load(object sender, EventArgs e)
         {
             RegisterHyperLink.NavigateUrl = "Register";
