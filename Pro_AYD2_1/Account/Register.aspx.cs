@@ -11,12 +11,13 @@ namespace Pro_AYD2_1.Account
 {
     public partial class Register : Page
     {
+        DBComun cn = new DBComun();
+        string cadenainsertar;
 
        
         protected void CreateUser_Click(object sender, EventArgs e)
         {
             
-
             registrar_usuario();
         }
 
