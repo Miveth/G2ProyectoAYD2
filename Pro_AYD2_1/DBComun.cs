@@ -23,7 +23,7 @@ namespace Pro_AYD2_1
             }
             catch (Exception e)
             {
-                conexcion_establecida = true;
+                conexcion_establecida = false;
 
             }
         }
