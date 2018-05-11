@@ -28,6 +28,16 @@ namespace Pro_AYD2_1.Account
 
         }
 
+        public int vacio(string cadena)
+        {
+            if (cadena == "")
+            {
+                return 1;
+            }
+            return 0;
+
+        }
+
         protected void Button1_Click(object sender, EventArgs e)
         {
             SqlDataAdapter sda = new SqlDataAdapter("select * from usuario where cuenta = '" + Session["cuenta"].ToString()+ "';", cn.conexion);

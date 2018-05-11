@@ -53,6 +53,8 @@
     <Compile Include="conexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Log_in.cs" />
+    <Compile Include="Transaccion.cs" />
+    <Compile Include="Consulta.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pro_AYD2_1\Pro_AYD2_1.csproj">
