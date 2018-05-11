@@ -28,18 +28,20 @@ namespace Pro_AYD2_1.Account
         {
 
          //transaccion 
+           Response.Redirect("WebForm2.aspx");
 
 
         }
 
         protected void logo_Click(object sender, EventArgs e)
         {
-          
+          Session.RemoveAll();
+            Response.Redirect("/");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
+            Response.Redirect("Consultar.aspx");
         }
     }
 }
