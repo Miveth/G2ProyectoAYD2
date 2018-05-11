@@ -30,7 +30,28 @@ namespace Pro_AYD2_1.Account
         protected void LogIn(object sender, EventArgs e)
         {
 
-            
+
+            SqlDataAdapter sda = new SqlDataAdapter("select * from usuario where cuenta = '" + Email.Text + "' and pass = '" + Password.Text + "';", cn.conexion);
+            DataTable dt = new DataTable();
+
+            sda.Fill(dt);
+
+
+
+            if (dt.Rows.Count.ToString() == "1")
+            {
+                DataRow row = dt.Rows[0];
+                Session["user"] = row["nombre"].ToString();
+                Session["cuenta"] = Email.Text;
+                Response.Redirect("MENU.aspx");
+            }
+
+            else
+            {
+                FailureText.Text = "Intento de inicio de sesión no válido";
+                ErrorMessage.Visible = true;
+
+            }
 
         }
         
