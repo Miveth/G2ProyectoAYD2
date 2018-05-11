@@ -27,6 +27,15 @@ namespace Pro_AYD2_1.Account
 
         }
 
+        public int cantidad(float b)
+        {
+            if (b < 0)
+            {
+                return 0;
+            }
+            return 1;
+        }
+
         protected void logo_Click(object sender, EventArgs e)
         {
             Session.RemoveAll();
