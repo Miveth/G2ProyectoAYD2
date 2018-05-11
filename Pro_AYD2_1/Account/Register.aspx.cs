@@ -23,6 +23,29 @@ namespace Pro_AYD2_1.Account
 
         public void registrar_usuario()
         {
+        
+         if (Password.Text.Equals(ConfirmPassword.Text))
+            {
+                cadenainsertar = "insert into usuario (nombre, apellido, dpi, cuenta, saldoIni, email, pass) values ('" + nombre.Text + "','" + apellido.Text + "','" + dpi.Text + "','" + cuenta.Text + "','" + saldo.Text + "','" + Email.Text + "','" + ConfirmPassword.Text + "');";
+                cn.insertardatos(cadenainsertar);
+                string mensaje = "Usuario creado con exitos";
+                ClientScript.RegisterStartupScript(typeof(Page), "alert", "<script language=JavaScript>alert('" + (mensaje) + "');</Script>");
+                nombre.Text = "";
+                apellido.Text = "";
+                dpi.Text = "";
+                cuenta.Text = "";
+                saldo.Text = "";
+                Email.Text = "";
+                Password.Text = "";
+                ConfirmPassword.Text = "";
+            }
+            else
+            {
+                string mensaje = "Error al confirmar contraseña";
+                ClientScript.RegisterStartupScript(typeof(Page), "alert", "<script language=JavaScript>alert('" + (mensaje) + "');</Script>");
+                Password.Text = "";
+                ConfirmPassword.Text = "";
+            }
 
             
         }
