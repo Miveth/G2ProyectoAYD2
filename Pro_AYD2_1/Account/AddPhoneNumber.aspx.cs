@@ -26,6 +26,8 @@ namespace Pro_AYD2_1.Account
                 };
 
                 manager.SmsService.Send(message);
+                
+                var hola = "hola que hace";
             }
 
             Response.Redirect("/Account/VerifyPhoneNumber?PhoneNumber=" + HttpUtility.UrlEncode(PhoneNumber.Text));
