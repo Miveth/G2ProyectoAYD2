@@ -15,7 +15,7 @@ namespace Pro_AYD2_1
         public DBComun()
         {
 
-            conexion = new SqlConnection("Data Source=DESKTOP-9NOAC3K;Initial Catalog=Prueba;Integrated Security=True");
+            conexion = new SqlConnection("Data Source=SKULLPCR;Initial Catalog=AYD_P;Integrated Security=True");
             try
             {
                 insertardatos("Select * from usuario;");
